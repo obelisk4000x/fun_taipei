@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import com.maxma.funtaipei.R
 import com.maxma.funtaipei.databinding.ActivityMainBinding
-import com.maxma.funtaipei.view.attraction.AttractionsActivity
+import com.maxma.funtaipei.view.attraction.AttractionListActivity
 import com.maxma.funtaipei.view.news.NewsActivity
 
 class MainActivity : AppCompatActivity() {
@@ -21,12 +21,12 @@ class MainActivity : AppCompatActivity() {
 
     private fun setupUI() {
         dataBinding.attractionsButton.setOnClickListener {
-            val intent = Intent(applicationContext, AttractionsActivity::class.java).apply {
+            val intent = Intent(applicationContext, AttractionListActivity::class.java).apply {
             }
             startActivity(intent)
         }
 
-        dataBinding.eventButton.setOnClickListener {
+        dataBinding.newsButton.setOnClickListener {
             val intent = Intent(applicationContext, NewsActivity::class.java).apply {
             }
             startActivity(intent)

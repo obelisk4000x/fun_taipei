@@ -16,7 +16,7 @@
             android:name=".view.news.NewsActivity"
             android:theme="@style/Theme.FunTaipei.NoActionBar" />
         <activity
-            android:name=".view.attraction.AttractionsActivity"
+            android:name=".view.attraction.AttractionListActivity"
             android:label="@string/title_activity_attractions"
             android:theme="@style/Theme.FunTaipei.NoActionBar" />
         <activity

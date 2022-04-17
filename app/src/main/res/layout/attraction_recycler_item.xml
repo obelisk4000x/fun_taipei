@@ -36,9 +36,10 @@
                 android:layout_height="wrap_content"
                 app:layout_constraintTop_toBottomOf="@id/name"
                 app:layout_constraintStart_toStartOf="@id/name"
-                android:layout_marginTop="2dp"
-                android:layout_marginStart="5dp"
-                android:text="@{attraction.introduction}" />
+                android:padding="5dp"
+                android:text="@{attraction.introduction}"
+                android:maxLines="4"
+                android:ellipsize="end"/>
         </androidx.constraintlayout.widget.ConstraintLayout>
     </com.google.android.material.card.MaterialCardView>
 </layout>

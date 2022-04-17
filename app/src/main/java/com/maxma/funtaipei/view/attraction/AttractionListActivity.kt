@@ -11,7 +11,7 @@ import com.maxma.funtaipei.base.MainViewModelFactory
 import com.maxma.funtaipei.databinding.ActivityAttractionsBinding
 import com.maxma.funtaipei.view_model.AttractionsViewModel
 
-class AttractionsActivity : AppCompatActivity() {
+class AttractionListActivity : AppCompatActivity() {
 
     private val viewModel by viewModels<AttractionsViewModel> { MainViewModelFactory() }
     private lateinit var dataBinding: ActivityAttractionsBinding
